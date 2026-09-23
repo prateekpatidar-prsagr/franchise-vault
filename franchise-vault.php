@@ -10,7 +10,7 @@
  * Author URI:        https://github.com/prateekpatidar-prsagr
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       franchise-vault
+ * Text Domain:       franchisevault
  */
 
 if (!defined('ABSPATH')) {
@@ -55,7 +55,7 @@ final class FranchiseVault
 
     public function load_textdomain(): void
     {
-        load_plugin_textdomain('franchise-vault', false, dirname(plugin_basename(FV_PLUGIN_FILE)) . '/languages');
+        load_plugin_textdomain('franchisevault', false, dirname(plugin_basename(FV_PLUGIN_FILE)) . '/languages');
     }
 
     public function boot(): void
